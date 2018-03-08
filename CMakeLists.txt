@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithms binary_search_recursive.cpp)
+add_executable(Algorithms Searching/binary_search_recursive.cpp)

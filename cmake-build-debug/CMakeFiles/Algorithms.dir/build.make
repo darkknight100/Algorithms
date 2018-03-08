@@ -57,38 +57,38 @@ include CMakeFiles/Algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithms.dir/flags.make
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o: CMakeFiles/Algorithms.dir/flags.make
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o: ../binary_search_recursive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o -c /Users/mmt6306/Documents/Algorithms/binary_search_recursive.cpp
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o: ../Searching/binary_search_recursive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o -c /Users/mmt6306/Documents/Algorithms/Searching/binary_search_recursive.cpp
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mmt6306/Documents/Algorithms/binary_search_recursive.cpp > CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.i
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mmt6306/Documents/Algorithms/Searching/binary_search_recursive.cpp > CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.i
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mmt6306/Documents/Algorithms/binary_search_recursive.cpp -o CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.s
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mmt6306/Documents/Algorithms/Searching/binary_search_recursive.cpp -o CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.s
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.requires:
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.requires
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.provides: CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.provides
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.provides: CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.provides
 
-CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.provides.build: CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o
+CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.provides.build: CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o
 
 
 # Object files for target Algorithms
 Algorithms_OBJECTS = \
-"CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o"
+"CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o"
 
 # External object files for target Algorithms
 Algorithms_EXTERNAL_OBJECTS =
 
-Algorithms: CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o
 Algorithms: CMakeFiles/Algorithms.dir/build.make
 Algorithms: CMakeFiles/Algorithms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithms"
@@ -99,7 +99,7 @@ CMakeFiles/Algorithms.dir/build: Algorithms
 
 .PHONY : CMakeFiles/Algorithms.dir/build
 
-CMakeFiles/Algorithms.dir/requires: CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o.requires
+CMakeFiles/Algorithms.dir/requires: CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o.requires
 
 .PHONY : CMakeFiles/Algorithms.dir/requires
 

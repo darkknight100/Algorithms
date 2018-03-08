@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-binary_search_recursive.o: binary_search_recursive.cpp.o
+Searching/binary_search_recursive.o: Searching/binary_search_recursive.cpp.o
 
-.PHONY : binary_search_recursive.o
+.PHONY : Searching/binary_search_recursive.o
 
 # target to build an object file
-binary_search_recursive.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.o
-.PHONY : binary_search_recursive.cpp.o
+Searching/binary_search_recursive.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o
+.PHONY : Searching/binary_search_recursive.cpp.o
 
-binary_search_recursive.i: binary_search_recursive.cpp.i
+Searching/binary_search_recursive.i: Searching/binary_search_recursive.cpp.i
 
-.PHONY : binary_search_recursive.i
+.PHONY : Searching/binary_search_recursive.i
 
 # target to preprocess a source file
-binary_search_recursive.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.i
-.PHONY : binary_search_recursive.cpp.i
+Searching/binary_search_recursive.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.i
+.PHONY : Searching/binary_search_recursive.cpp.i
 
-binary_search_recursive.s: binary_search_recursive.cpp.s
+Searching/binary_search_recursive.s: Searching/binary_search_recursive.cpp.s
 
-.PHONY : binary_search_recursive.s
+.PHONY : Searching/binary_search_recursive.s
 
 # target to generate assembly for a file
-binary_search_recursive.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/binary_search_recursive.cpp.s
-.PHONY : binary_search_recursive.cpp.s
+Searching/binary_search_recursive.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.s
+.PHONY : Searching/binary_search_recursive.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... binary_search_recursive.o"
-	@echo "... binary_search_recursive.i"
-	@echo "... binary_search_recursive.s"
+	@echo "... Searching/binary_search_recursive.o"
+	@echo "... Searching/binary_search_recursive.i"
+	@echo "... Searching/binary_search_recursive.s"
 .PHONY : help
 
 
