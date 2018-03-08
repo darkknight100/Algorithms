@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Searching/binary_search_recursive.o: Searching/binary_search_recursive.cpp.o
+Searching/binary_search_iterative.o: Searching/binary_search_iterative.cpp.o
 
-.PHONY : Searching/binary_search_recursive.o
+.PHONY : Searching/binary_search_iterative.o
 
 # target to build an object file
-Searching/binary_search_recursive.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o
-.PHONY : Searching/binary_search_recursive.cpp.o
+Searching/binary_search_iterative.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.o
+.PHONY : Searching/binary_search_iterative.cpp.o
 
-Searching/binary_search_recursive.i: Searching/binary_search_recursive.cpp.i
+Searching/binary_search_iterative.i: Searching/binary_search_iterative.cpp.i
 
-.PHONY : Searching/binary_search_recursive.i
+.PHONY : Searching/binary_search_iterative.i
 
 # target to preprocess a source file
-Searching/binary_search_recursive.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.i
-.PHONY : Searching/binary_search_recursive.cpp.i
+Searching/binary_search_iterative.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.i
+.PHONY : Searching/binary_search_iterative.cpp.i
 
-Searching/binary_search_recursive.s: Searching/binary_search_recursive.cpp.s
+Searching/binary_search_iterative.s: Searching/binary_search_iterative.cpp.s
 
-.PHONY : Searching/binary_search_recursive.s
+.PHONY : Searching/binary_search_iterative.s
 
 # target to generate assembly for a file
-Searching/binary_search_recursive.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.s
-.PHONY : Searching/binary_search_recursive.cpp.s
+Searching/binary_search_iterative.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.s
+.PHONY : Searching/binary_search_iterative.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... Searching/binary_search_recursive.o"
-	@echo "... Searching/binary_search_recursive.i"
-	@echo "... Searching/binary_search_recursive.s"
+	@echo "... Searching/binary_search_iterative.o"
+	@echo "... Searching/binary_search_iterative.i"
+	@echo "... Searching/binary_search_iterative.s"
 .PHONY : help
 
 

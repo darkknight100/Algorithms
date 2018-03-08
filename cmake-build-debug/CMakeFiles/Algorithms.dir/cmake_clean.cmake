@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithms.dir/Searching/binary_search_recursive.cpp.o"
+  "CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.o"
   "Algorithms.pdb"
   "Algorithms"
 )
