@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-    cout << "Binary Search implementation" << endl;
+    cout << "Binary Search c++ STL implementation" << endl;
 
     cout << "Enter the length of the array ::: ";
     int total_elements, find_element;

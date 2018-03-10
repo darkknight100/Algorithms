@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Searching/binary_search_stl_implementation.o: Searching/binary_search_stl_implementation.cpp.o
+Searching/upper_bound_stl_implementation.o: Searching/upper_bound_stl_implementation.cpp.o
 
-.PHONY : Searching/binary_search_stl_implementation.o
+.PHONY : Searching/upper_bound_stl_implementation.o
 
 # target to build an object file
-Searching/binary_search_stl_implementation.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.o
-.PHONY : Searching/binary_search_stl_implementation.cpp.o
+Searching/upper_bound_stl_implementation.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o
+.PHONY : Searching/upper_bound_stl_implementation.cpp.o
 
-Searching/binary_search_stl_implementation.i: Searching/binary_search_stl_implementation.cpp.i
+Searching/upper_bound_stl_implementation.i: Searching/upper_bound_stl_implementation.cpp.i
 
-.PHONY : Searching/binary_search_stl_implementation.i
+.PHONY : Searching/upper_bound_stl_implementation.i
 
 # target to preprocess a source file
-Searching/binary_search_stl_implementation.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.i
-.PHONY : Searching/binary_search_stl_implementation.cpp.i
+Searching/upper_bound_stl_implementation.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.i
+.PHONY : Searching/upper_bound_stl_implementation.cpp.i
 
-Searching/binary_search_stl_implementation.s: Searching/binary_search_stl_implementation.cpp.s
+Searching/upper_bound_stl_implementation.s: Searching/upper_bound_stl_implementation.cpp.s
 
-.PHONY : Searching/binary_search_stl_implementation.s
+.PHONY : Searching/upper_bound_stl_implementation.s
 
 # target to generate assembly for a file
-Searching/binary_search_stl_implementation.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.s
-.PHONY : Searching/binary_search_stl_implementation.cpp.s
+Searching/upper_bound_stl_implementation.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.s
+.PHONY : Searching/upper_bound_stl_implementation.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... Searching/binary_search_stl_implementation.o"
-	@echo "... Searching/binary_search_stl_implementation.i"
-	@echo "... Searching/binary_search_stl_implementation.s"
+	@echo "... Searching/upper_bound_stl_implementation.o"
+	@echo "... Searching/upper_bound_stl_implementation.i"
+	@echo "... Searching/upper_bound_stl_implementation.s"
 .PHONY : help
 
 
