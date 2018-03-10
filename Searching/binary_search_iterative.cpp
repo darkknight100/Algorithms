@@ -54,7 +54,7 @@ int main() {
     // For binary search elements must be in sorted order
     sort(array, array + total_elements);
 
-    cout << "Enter the element to be searched :::" << endl;
+    cout << "Enter the element to be searched ::: ";
     cin >> find_element;
 
     int is_element_found = binary_search(array, 0, total_elements - 1, find_element);

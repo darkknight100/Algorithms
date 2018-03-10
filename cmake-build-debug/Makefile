@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Searching/binary_search_iterative.o: Searching/binary_search_iterative.cpp.o
+Searching/binary_search_stl_implementation.o: Searching/binary_search_stl_implementation.cpp.o
 
-.PHONY : Searching/binary_search_iterative.o
+.PHONY : Searching/binary_search_stl_implementation.o
 
 # target to build an object file
-Searching/binary_search_iterative.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.o
-.PHONY : Searching/binary_search_iterative.cpp.o
+Searching/binary_search_stl_implementation.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.o
+.PHONY : Searching/binary_search_stl_implementation.cpp.o
 
-Searching/binary_search_iterative.i: Searching/binary_search_iterative.cpp.i
+Searching/binary_search_stl_implementation.i: Searching/binary_search_stl_implementation.cpp.i
 
-.PHONY : Searching/binary_search_iterative.i
+.PHONY : Searching/binary_search_stl_implementation.i
 
 # target to preprocess a source file
-Searching/binary_search_iterative.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.i
-.PHONY : Searching/binary_search_iterative.cpp.i
+Searching/binary_search_stl_implementation.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.i
+.PHONY : Searching/binary_search_stl_implementation.cpp.i
 
-Searching/binary_search_iterative.s: Searching/binary_search_iterative.cpp.s
+Searching/binary_search_stl_implementation.s: Searching/binary_search_stl_implementation.cpp.s
 
-.PHONY : Searching/binary_search_iterative.s
+.PHONY : Searching/binary_search_stl_implementation.s
 
 # target to generate assembly for a file
-Searching/binary_search_iterative.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_iterative.cpp.s
-.PHONY : Searching/binary_search_iterative.cpp.s
+Searching/binary_search_stl_implementation.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/binary_search_stl_implementation.cpp.s
+.PHONY : Searching/binary_search_stl_implementation.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... Searching/binary_search_iterative.o"
-	@echo "... Searching/binary_search_iterative.i"
-	@echo "... Searching/binary_search_iterative.s"
+	@echo "... Searching/binary_search_stl_implementation.o"
+	@echo "... Searching/binary_search_stl_implementation.i"
+	@echo "... Searching/binary_search_stl_implementation.s"
 .PHONY : help
 
 

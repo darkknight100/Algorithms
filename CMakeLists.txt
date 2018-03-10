@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithms Searching/binary_search_iterative.cpp)
+add_executable(Algorithms  Searching/binary_search_stl_implementation.cpp)

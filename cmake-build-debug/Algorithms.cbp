@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mmt6306/Documents/Algorithms/Searching/binary_search_iterative.cpp">
+		<Unit filename="/Users/mmt6306/Documents/Algorithms/Searching/binary_search_stl_implementation.cpp">
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/Users/mmt6306/Documents/Algorithms/CMakeLists.txt">
