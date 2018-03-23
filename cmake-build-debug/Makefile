@@ -123,32 +123,59 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Searching/upper_bound_stl_implementation.o: Searching/upper_bound_stl_implementation.cpp.o
+Sorting/bubble_sort.o: Sorting/bubble_sort.cpp.o
 
-.PHONY : Searching/upper_bound_stl_implementation.o
+.PHONY : Sorting/bubble_sort.o
 
 # target to build an object file
-Searching/upper_bound_stl_implementation.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o
-.PHONY : Searching/upper_bound_stl_implementation.cpp.o
+Sorting/bubble_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o
+.PHONY : Sorting/bubble_sort.cpp.o
 
-Searching/upper_bound_stl_implementation.i: Searching/upper_bound_stl_implementation.cpp.i
+Sorting/bubble_sort.i: Sorting/bubble_sort.cpp.i
 
-.PHONY : Searching/upper_bound_stl_implementation.i
+.PHONY : Sorting/bubble_sort.i
 
 # target to preprocess a source file
-Searching/upper_bound_stl_implementation.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.i
-.PHONY : Searching/upper_bound_stl_implementation.cpp.i
+Sorting/bubble_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.i
+.PHONY : Sorting/bubble_sort.cpp.i
 
-Searching/upper_bound_stl_implementation.s: Searching/upper_bound_stl_implementation.cpp.s
+Sorting/bubble_sort.s: Sorting/bubble_sort.cpp.s
 
-.PHONY : Searching/upper_bound_stl_implementation.s
+.PHONY : Sorting/bubble_sort.s
 
 # target to generate assembly for a file
-Searching/upper_bound_stl_implementation.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.s
-.PHONY : Searching/upper_bound_stl_implementation.cpp.s
+Sorting/bubble_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.s
+.PHONY : Sorting/bubble_sort.cpp.s
+
+Sorting/insertion_sort.o: Sorting/insertion_sort.cpp.o
+
+.PHONY : Sorting/insertion_sort.o
+
+# target to build an object file
+Sorting/insertion_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o
+.PHONY : Sorting/insertion_sort.cpp.o
+
+Sorting/insertion_sort.i: Sorting/insertion_sort.cpp.i
+
+.PHONY : Sorting/insertion_sort.i
+
+# target to preprocess a source file
+Sorting/insertion_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.i
+.PHONY : Sorting/insertion_sort.cpp.i
+
+Sorting/insertion_sort.s: Sorting/insertion_sort.cpp.s
+
+.PHONY : Sorting/insertion_sort.s
+
+# target to generate assembly for a file
+Sorting/insertion_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.s
+.PHONY : Sorting/insertion_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... Searching/upper_bound_stl_implementation.o"
-	@echo "... Searching/upper_bound_stl_implementation.i"
-	@echo "... Searching/upper_bound_stl_implementation.s"
+	@echo "... Sorting/bubble_sort.o"
+	@echo "... Sorting/bubble_sort.i"
+	@echo "... Sorting/bubble_sort.s"
+	@echo "... Sorting/insertion_sort.o"
+	@echo "... Sorting/insertion_sort.i"
+	@echo "... Sorting/insertion_sort.s"
 .PHONY : help
 
 

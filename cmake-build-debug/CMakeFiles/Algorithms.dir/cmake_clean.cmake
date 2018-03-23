@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o"
+  "CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o"
+  "CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o"
   "Algorithms.pdb"
   "Algorithms"
 )

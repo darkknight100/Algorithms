@@ -57,41 +57,67 @@ include CMakeFiles/Algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithms.dir/flags.make
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o: CMakeFiles/Algorithms.dir/flags.make
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o: ../Searching/upper_bound_stl_implementation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o -c /Users/mmt6306/Documents/Algorithms/Searching/upper_bound_stl_implementation.cpp
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o: ../Sorting/bubble_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o -c /Users/mmt6306/Documents/Algorithms/Sorting/bubble_sort.cpp
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mmt6306/Documents/Algorithms/Searching/upper_bound_stl_implementation.cpp > CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.i
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mmt6306/Documents/Algorithms/Sorting/bubble_sort.cpp > CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.i
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mmt6306/Documents/Algorithms/Searching/upper_bound_stl_implementation.cpp -o CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.s
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mmt6306/Documents/Algorithms/Sorting/bubble_sort.cpp -o CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.s
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.requires:
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.requires
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.provides: CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.provides
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.provides: CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.provides
 
-CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.provides.build: CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o
+CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.provides.build: CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o
+
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o: ../Sorting/insertion_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o -c /Users/mmt6306/Documents/Algorithms/Sorting/insertion_sort.cpp
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mmt6306/Documents/Algorithms/Sorting/insertion_sort.cpp > CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.i
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mmt6306/Documents/Algorithms/Sorting/insertion_sort.cpp -o CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.s
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.requires:
+
+.PHONY : CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.requires
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.provides: CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.provides
+
+CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.provides.build: CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o
 
 
 # Object files for target Algorithms
 Algorithms_OBJECTS = \
-"CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o"
+"CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o" \
+"CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o"
 
 # External object files for target Algorithms
 Algorithms_EXTERNAL_OBJECTS =
 
-Algorithms: CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o
 Algorithms: CMakeFiles/Algorithms.dir/build.make
 Algorithms: CMakeFiles/Algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mmt6306/Documents/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/Algorithms.dir/build: Algorithms
 
 .PHONY : CMakeFiles/Algorithms.dir/build
 
-CMakeFiles/Algorithms.dir/requires: CMakeFiles/Algorithms.dir/Searching/upper_bound_stl_implementation.cpp.o.requires
+CMakeFiles/Algorithms.dir/requires: CMakeFiles/Algorithms.dir/Sorting/bubble_sort.cpp.o.requires
+CMakeFiles/Algorithms.dir/requires: CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o.requires
 
 .PHONY : CMakeFiles/Algorithms.dir/requires
 
