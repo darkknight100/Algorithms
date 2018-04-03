@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Sorting/insertion_sort.o: Sorting/insertion_sort.cpp.o
+Sorting/merge_sort.o: Sorting/merge_sort.cpp.o
 
-.PHONY : Sorting/insertion_sort.o
+.PHONY : Sorting/merge_sort.o
 
 # target to build an object file
-Sorting/insertion_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.o
-.PHONY : Sorting/insertion_sort.cpp.o
+Sorting/merge_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/merge_sort.cpp.o
+.PHONY : Sorting/merge_sort.cpp.o
 
-Sorting/insertion_sort.i: Sorting/insertion_sort.cpp.i
+Sorting/merge_sort.i: Sorting/merge_sort.cpp.i
 
-.PHONY : Sorting/insertion_sort.i
+.PHONY : Sorting/merge_sort.i
 
 # target to preprocess a source file
-Sorting/insertion_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.i
-.PHONY : Sorting/insertion_sort.cpp.i
+Sorting/merge_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/merge_sort.cpp.i
+.PHONY : Sorting/merge_sort.cpp.i
 
-Sorting/insertion_sort.s: Sorting/insertion_sort.cpp.s
+Sorting/merge_sort.s: Sorting/merge_sort.cpp.s
 
-.PHONY : Sorting/insertion_sort.s
+.PHONY : Sorting/merge_sort.s
 
 # target to generate assembly for a file
-Sorting/insertion_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/insertion_sort.cpp.s
-.PHONY : Sorting/insertion_sort.cpp.s
+Sorting/merge_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Sorting/merge_sort.cpp.s
+.PHONY : Sorting/merge_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms"
-	@echo "... Sorting/insertion_sort.o"
-	@echo "... Sorting/insertion_sort.i"
-	@echo "... Sorting/insertion_sort.s"
+	@echo "... Sorting/merge_sort.o"
+	@echo "... Sorting/merge_sort.i"
+	@echo "... Sorting/merge_sort.s"
 .PHONY : help
 
 
