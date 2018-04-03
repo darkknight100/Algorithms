@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mmt6306/Documents/Algorithms/Sorting/bubble_sort.cpp">
-			<Option target="Algorithms"/>
-		</Unit>
 		<Unit filename="/Users/mmt6306/Documents/Algorithms/Sorting/insertion_sort.cpp">
 			<Option target="Algorithms"/>
 		</Unit>
